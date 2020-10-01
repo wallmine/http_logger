@@ -1,5 +1,7 @@
 # Net::HTTP logger
 
+NOTE for random passerby: This fork uses the `alias chaining` API instead of the `prepend` API, to maintain compatibility with other gems (e.g. `newrelic_rpm`).
+
 Simple gem that logs your HTTP api requests just like database queries
 
 
